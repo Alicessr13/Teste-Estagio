@@ -19,9 +19,9 @@ function verificaPertence() {
     const numero = parseInt(prompt("Digite um número para verificar se pertence à sequência de Fibonacci:"));
 
     if (fibonacciSequence(numero)) {
-            console.log(numero + " pertence à sequência de Fibonacci.");
+            return alert(numero + " pertence à sequência de Fibonacci.");
         } else {
-            console.log(numero + " não pertence à sequência de Fibonacci.");
+            return alert(numero + " não pertence à sequência de Fibonacci.");
         }
 }
 

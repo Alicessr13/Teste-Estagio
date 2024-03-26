@@ -11,4 +11,4 @@ function inverterString(string) {
 
 let stringOriginal = prompt("Digite uma string para ser invertida:");
 let stringInvertida = inverterString(stringOriginal);
-console.log("A string invertida é:", stringInvertida);
+alert("A string invertida é: "+stringInvertida);
